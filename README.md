@@ -38,7 +38,7 @@ Free-Test is intentionally API-only, so there are no CLI commands. It's recommen
    > npm install free-test
    ```
 
-1. Write a minimal, top-level script
+1. Write a minimal, top-level script using `buildDefaultPipeline()`
 
    ```
    // runTests.ts
@@ -46,6 +46,25 @@ Free-Test is intentionally API-only, so there are no CLI commands. It's recommen
    const pipeline = buildDefaultPipeline("./tests/**/*.test.ts")
 
    pipeline.run();
+   ```
+
+1. Write a test using `TestGroup` type
+
+   ```
+   // tests/simpleTest.test.ts
+
+   import { expect } from "chai";
+   import { TestGroup } from "@kdaquila/free-test";
+
+   export const simpleTestGroup: TestGroup = {
+      name: "Simple Test Group",
+      tests: [{
+         name: "Simple Test",
+         test: () => {
+            const a = 1;
+            expect(a).to.equal(1);
+         },
+   }]};
    ```
 
 1. Run the script with your preferred Javascript engine (node.js, ts-node, tsx, etc.). For example,
@@ -60,6 +79,6 @@ Free-Test is intentionally API-only, so there are no CLI commands. It's recommen
    // package.json
 
    "scripts": {
-       "test": "tsx runTests.ts"
+   "test": "tsx runTests.ts"
    },
    ```
