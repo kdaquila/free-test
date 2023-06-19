@@ -1,7 +1,7 @@
 import { expect } from "chai";
-import { TestGroup } from "../src/types/testGroup";
-import { simpleTestRunner } from "../src/runningTests/simpleTestRunner";
-import { simpleTestGroup } from "./simpleTest.test";
+import { TestGroup } from "../src/types/testGroup.js";
+import { simpleTestRunner } from "../src/runningTests/simpleTestRunner.js";
+import { simpleTestGroup } from "./simpleTest.test.js";
 
 export const testGroup1: TestGroup = {
   name: "Test Loader",

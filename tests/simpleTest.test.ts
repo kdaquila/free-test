@@ -1,5 +1,5 @@
 import { expect } from "chai";
-import { TestGroup } from "../src/types/testGroup";
+import { TestGroup } from "../src/types/testGroup.js";
 
 export const simpleTestGroup: TestGroup = {
   name: "Simple Test",
