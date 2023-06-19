@@ -1,6 +1,6 @@
 {
   "name": "@kfd182/free-test",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Free Test is a typescript testing library that offers maximum flexibility for those wishing to build their own custom testing system.",
   "keywords": [
     "testing",
