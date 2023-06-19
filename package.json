@@ -1,0 +1,32 @@
+{
+  "name": "@kfd182/free-test",
+  "version": "1.0.0",
+  "description": "Free Test is a typescript testing library that offers maximum flexibility for those wishing to build their own custom testing system.",
+  "keywords": [
+    "testing",
+    "typescript",
+    "ESM",
+    "custom",
+    "flexible"
+  ],
+  "author": "kfd182@gmail.com",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "tsx runTests.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "@types/chai": "^4.3.5",
+    "chai": "^4.3.7",
+    "chalk": "^5.2.0",
+    "glob": "^10.2.5",
+    "immer": "^10.0.2",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.3",
+    "tsx": "^3.12.7"
+  }
+}
