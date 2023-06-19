@@ -12,6 +12,10 @@
   "author": "kfd182@gmail.com",
   "license": "MIT",
   "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kdaquila/free-test"
+  },
   "scripts": {
     "test": "tsx runTests.ts"
   },
