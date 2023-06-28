@@ -42,7 +42,7 @@ export const simpleResultsPrinter: ResultsPrinter = {
             : "";
         const stack =
           test.result?.stack != null ? `, stack: ${test.result.stack}` : "";
-        console.log(`${space}${status}: ${test.name}${message}${stack}`);
+        console.log(`${space}${status}: ${test.name}${message}`);
 
         // Update statistics
         if (test.result?.status === "passed") {
