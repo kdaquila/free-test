@@ -1,6 +1,6 @@
 {
   "name": "@kdaquila/free-test",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Free Test is a typescript testing library that offers maximum flexibility for those wishing to build their own custom testing system.",
   "keywords": [
     "testing",
