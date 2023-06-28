@@ -1,4 +1,4 @@
-import { buildDefaultPipeline } from "../src/testingPipeline/buildDefaultPipeline.js";
+import { buildDefaultPipeline } from "../dist/src/index.js";
 
 // Free Test is a typescript testing library that offers maximum flexibility for those wishing to build their own custom testing system.
 
