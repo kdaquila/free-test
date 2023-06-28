@@ -12,6 +12,7 @@
   "author": "kfd182@gmail.com",
   "license": "MIT",
   "main": "src/index.ts",
+  "types": "dist/src/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/kdaquila/free-test"
