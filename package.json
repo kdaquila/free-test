@@ -1,6 +1,6 @@
 {
   "name": "@kdaquila/free-test",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "description": "Free Test is a typescript testing library that offers maximum flexibility for those wishing to build their own custom testing system.",
   "keywords": [
     "testing",
@@ -11,8 +11,8 @@
   ],
   "author": "kfd182@gmail.com",
   "license": "MIT",
-  "main": "dist/index.ts",
-  "types": "dist/src/index.d.ts",
+  "main": "./dist/src/index.ts",
+  "types": "./dist/src/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/kdaquila/free-test"
